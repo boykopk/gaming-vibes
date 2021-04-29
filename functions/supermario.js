@@ -5,7 +5,7 @@ exports.handler = async (event, context) => {
 
   // return response to browser
   return {
-    statusCodde: 200,
+    statusCode: 200,
     body: JSON.stringify(data),
   };
 };
